@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tcc Express</title>
+</head>
+    <body bgcolor="#ececea">
+        <header>
+            <img src="/Images/ll-triangle.jpg" alt="portada tcc Express" width="100%" height="570">
+        </header>
+        <h1>Tcc Express</h1>
+        <nav>
+                <font size ="5"><a href="Index.html">Inicio</a>
+                <a href="Servicios.html">Servicios</a>
+                <a href="Contacto.html">Contacto</a>
+                <a href="Pfrecuentes.html">Preguntas frecuentes</a></font>
+        </nav>
+        <img src="/Images/Captura.PNG" alt="logo tcc Express" width="20%">
+       
+        <main>
+            <section>
+                <h2>Envios Nacionales</h2>
+                <p>Ofrecemos servicios de envío a nivel nacional con la mayor rapidez y agilidad.</p>
+                <p>Nuestro equipo se esfuerza por brindar soluciones de envío confiables y seguras.</p>
+            </section>
+            <section>
+                <h1>Proceso de Envío Paso a Paso</h1>
+
+            <p><strong>Paso 1: Preparación del envío</strong><br>
+                Empaqueta el artículo de manera segura, utilizando material de embalaje adecuado para protegerlo durante el transporte. Asegúrate de que el paquete esté etiquetado correctamente con la dirección del remitente y del destinatario.</p>
+
+            <p><strong>Paso 2: Elección del servicio de envío</strong><br>
+                Selecciona el servicio de envío que mejor se adapte a tus necesidades y presupuesto.</p>
+
+            <p><strong>Paso 3: Visita a la empresa de envíos o solicitud en línea</strong><br>
+                Dirígete a una oficina de correos o utiliza el servicio en línea de la empresa de envíos elegida. Proporciona la información requerida sobre el paquete, como tamaño, peso, destino y valor declarado.</p>
+
+            <p><strong>Paso 4: Pago y documentación</strong><br>
+                Paga el costo del envío, que puede variar según el peso, tamaño, destino y servicio seleccionado. Recibirás un comprobante o recibo con los detalles del envío, que deberás conservar.</p>
+
+            <p><strong>Paso 5: Entrega del paquete a la empresa de envíos</strong><br>
+                Si estás en una oficina de correos, entregarás el paquete al empleado de la oficina. Si utilizas el servicio en línea, programarás una recogida en tu dirección o llevarás el paquete a un punto de recolección designado.</p>
+
+            <p><strong>Paso 6: Transporte del paquete</strong><br>
+                La empresa de envíos recogerá el paquete y lo transportará al centro de distribución. Dependiendo del servicio seleccionado, se puede utilizar transporte terrestre, aéreo u otros medios para llevar el paquete al destino.</p>
+
+            <p><strong>Paso 7: Seguimiento del envío</strong><br>
+                Utiliza el número de seguimiento proporcionado para rastrear el progreso del paquete en línea. Podrás ver cuándo sale del centro de distribución, cuándo llega a diferentes ubicaciones y el estado actual del envío.</p>
+
+            <p><strong>Paso 8: Entrega al destinatario</strong><br>
+                Una vez que el paquete llegue a su destino, la empresa de envíos lo entregará al destinatario. El destinatario firma la recepción del paquete como confirmación de la entrega.</p>
+            </section>
+        </main>
+        <div>
+            <h3>Ejemplo de Formato de Envíos</h3>
+            <table>
+                <form>
+                        <h3>Envío 1</h3>
+          
+                        <tr>
+                            <td>
+                                <label for="destination">Destinatario</label>
+                            </td>
+                            <td>
+                                <input 
+                                type="text"
+                                id="destination"
+                                name="destination"
+                                placeholder="Nombre Destinatario"
+                                size="50"
+                                maxlength="50"
+                                minlength="7"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                title="Ingrese caracteres validos para el Destino"
+                                required
+                                >   <!--autofocus-->
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <label for="target">Seleccione una ciudad </label>
+                            </td>
+                            <td>
+                                <select id="target" name="target" required>
+                                    <option value="medellin">Medellín</option>
+                                    <option value="bogota">Bogotá</option>
+                                    <option value="cali">Cali</option>
+                                    <option value="barranquilla">Barranquilla</option>
+                                    <option value="cartagena">Cartagena</option>
+                                    <option value="bucaramanga">Bucaramanga</option>  
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="address">Dirección</label>
+                            </td>
+                            <td>
+                                <input 
+                                type="text"
+                                id="address"
+                                name="address"
+                                placeholder="Dirección Destinatario"
+                                size="50"
+                                maxlength="50"
+                                minlength="7"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                title="Ingrese caracteres validos para la dirección"
+                                required
+                                >
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="email">Correo Electrónico</label>
+                            </td>
+                            <td>
+                                <input destino
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Ingrese el correo electronico"
+                                size="50"
+                                maxlength="50"
+                                minlength="7"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                title="Ingrese caracteres validos para el correo"
+                                required
+                                >
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <label for="weight">Paquetes de 1k a 8k por unidad</label>
+                            </td>
+                            <td>
+                                <input 
+                                type="number"
+                                id="weight"
+                                name="weight"
+                                placeholder="Peso"
+                                size=""
+                                min="1"
+                                max="8"
+                                title="Ingrese caracteres validos para el Peso"
+                                required
+                                >
+                            </td>
+                        </tr>
+                   
+                        <tr>
+                            <td>
+                                <label for="length">Longitud</label>
+                            </td>
+                            <td>
+                                <input 
+                                type="text"
+                                id="length"
+                                name="length"
+                                placeholder="longitud máxima de 45 cm"
+                                size="50"
+                                maxlength="50"
+                                minlength="7"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                title="Ingrese caracteres validos para la longitud"
+                                required
+                                >
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <label for="start">Fecha</label>
+                            </td>
+                            <td> 
+                                <input 
+                                type="date" 
+                                id="start" 
+                                name="trip-start" 
+                                value="2024-07-22" 
+                                min="2024-01-17" 
+                                max="2024-01-31"  
+                                title="Ingrese caracteres validos para la Fecha"
+                                required/>
+                                
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="waytoplay">Formas de Pago</label>
+                            </td>
+                            <td>
+                                Efectivo<input type="radio" name="waytoplay" id="cash">
+                                Tarjeta de Débito<input type="radio" name="waytoplay" id="debitcard">
+                                Tarjeta de Crédito<input type="radio" name="waytoplay" id="creditcard">
+                            </td>
+                        </tr>
+
+                        <tr>
+                        <td>
+                            <!--input type="submit" value="Enviar"> -->
+                            <button
+                            type="submit"
+                            id="send"
+                            name="send">
+                            Enviar
+                            </button>
+                            <button
+                            type="reset"
+                            id="reset"
+                            name="reset">
+                            limpiar
+                            </button>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+        
+        <hr>
+        <footer>
+            <p> Mateo Arroyave <br>
+                David Salazar <br>
+                Santiago Lopez <br>
+                Andres Felipe Arboleda</p>
+                <hr>
+                <p>&copy; 2024 Tcc Express</p>
+        </footer>
+    </body>
+</html>
+
+
+
+
